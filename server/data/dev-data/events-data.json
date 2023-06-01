@@ -1,0 +1,39 @@
+[
+  {
+    "title": "BTS World Tour",
+    "entertainer": ["BTS"],
+    "imageLink": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ticketmaster.com%2Fbts-tickets%2Fartist%2F2110227&psig=AOvVaw0yYINOQaHVKzQ0Rpxr3raN&ust=1685587701125000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCND24NPFnv8CFQAAAAAdAAAAABAE",
+    "city": "Saint-Denis",
+    "country": "France",
+    "type": "concert",
+    "category": "world tour",
+    "description": "Look no further! Our BTS World tour are the simplest way for you to experience the best Kpop performance.",
+    "price": 150,
+    "eventDate": "2023-10-18",
+    "place": "Stade de France",
+    "location": { "latitude": "48.9245", "longitude": "2.3602" },
+    "promoted": true
+  },
+  {
+    "title": "SBS MTV The Kpop Show Ticket Package",
+    "entertainer": [
+      "BTS",
+      "Stray Kids",
+      "Twice",
+      "Red Velvet",
+      "BlackPink",
+      "Seventeen"
+    ],
+    "imageLink": "../../assets/images/kpop.png",
+    "city": "Seoul",
+    "country": "South Korea",
+    "type": "concert",
+    "category": "group concert",
+    "description": "Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop recording..",
+    "price": 200,
+    "eventDate": "2023-07-12",
+    "place": "MUV-Hall",
+    "location": { "latitude": "37.5516", "longitude": "126.9198" },
+    "promoted": true
+  }
+]

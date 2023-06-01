@@ -8,7 +8,7 @@ const eventSchema = new mongoose.Schema({
     trim: true,
   },
   entertainer: {
-    type: String,
+    type: Array,
     required: [true, "An event must have an entertainer"],
     trim: true,
   },
@@ -33,7 +33,8 @@ const eventSchema = new mongoose.Schema({
     type: Number,
     required: [true, "An event must have a price"],
   },
-  eventDate: [Date],
+  eventDate: Date,
+  place: String,
   location: {
     type: Object,
     required: [true, "An event must have a location"],

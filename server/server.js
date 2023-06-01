@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 const app = require("./app");
+const importData = require("./data/dev-data/import-dev-data");
 
 const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
@@ -11,6 +12,8 @@ const DB = process.env.DATABASE.replace(
 mongoose.connect(DB).then(() => {
   console.log("DB connected");
 });
+
+// importData();
 
 const port = 3000;
 app.listen(port, () => {
